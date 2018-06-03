@@ -1,5 +1,7 @@
 # html5-survey-form
-### An HTML5 validated survey for freecodecamp.org Responsive Web Design Project
+### An HTML5 validated survey for [freecodecamp.org](https://www.freecodecamp.org) Responsive Web Design Project
+
+##### A working example can be found here on [CodePen](https://codepen.io/freeCodeCamp/full/VPaoNP)
 
 1. User Story #1: I can see a title with id="title" in H1 sized text.
 2. User Story #2: I can see a short explanation with id="description" in P sized text.
