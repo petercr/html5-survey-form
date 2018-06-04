@@ -3,11 +3,20 @@
     --form-width: 85%;
 }
 
+/* Global Declarations  */
+
 body {
     width: 100vw;
     display: flex;
     flex-direction: column;
 }
+
+label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Class based styling */
 
 .main-form {
     display: flex;
@@ -16,4 +25,10 @@ body {
     /* justify-content: center; */
     align-items: center;
     border: 2px solid black;
+}
+
+.survey-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
