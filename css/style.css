@@ -1,4 +1,19 @@
+/* Variables to change widths and padding using media queries */
+:root {
+    --form-width: 85%;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
 .main-form {
     display: flex;
     flex-direction: column;
+    width: var(--form-width);
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid black;
 }
