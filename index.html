@@ -13,10 +13,19 @@
     <p id="description">This is a form about what you like best about web development</p>
 
     <form action="submit" class="survey-form">
-      <label for="">Enter Name</label>
-      <input type="text" name="name" id="name">
-      <label for="">Enter your email:</label>
-      <input type="email" name="email" id="email">
+      <label for="" id="name-label">Enter Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name here">
+      <label for="" id="email-label">Enter your email:</label>
+      <input type="email" name="email" id="email" placeholder="Your email address">
+      <label for="" id="number-label" >How excited are you on a scale of 1 to 10?  </label>
+      <input type="number" name="number" id="number" min="1" max="10" placeholder="10" required>
+      <label for="">How long have you been coding?</label>
+      <select name="dropdown" id="dropdown">
+        <option value="1">Less than 1 year</option>
+        <option value="2">1 - 2 Years</option>
+        <option value="3">3 - 5 Years</option>
+        <option value="4">5+ Years</option>
+      </select>
 
     </form>
   </div>
