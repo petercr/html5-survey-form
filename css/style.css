@@ -1,6 +1,7 @@
 /* Variables to change widths and padding using media queries */
 :root {
-    --form-width: 85%;
+    --form-width: 80%;
+    --form-padding--left: 10%;
 }
 
 /* Global Declarations  */
@@ -22,12 +23,13 @@ label {
     display: flex;
     flex-direction: column;
     width: var(--form-width);
+    margin-left: var(--form-padding--left);
     /* justify-content: center; */
     align-items: center;
     border: 2px solid black;
 }
 
-.survey-form {
+#survey-form {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
